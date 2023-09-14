@@ -35,7 +35,7 @@ case $number in
     echo Your current working directory is: 
     pwd ;;
 
-  6) who ;;
+  6) who | wc -l ;;
 
   7)
     df -h ;;
